@@ -1,0 +1,44 @@
+*{
+    font-family: 'Press start 2P', Courier, monospace;
+}
+
+body{
+    background-color: burlywood;
+}
+/*estilos para imagenes*/
+.logo{
+    width: 100px;
+    height: 150px;
+    top: 5px;
+    left: 5px;
+    position: fixed;
+}
+.imaFondo{
+    width: 100%;
+    height: 50%;
+}
+
+.barra{
+    right: 5px;
+    top: 5px;
+    position: fixed;
+}
+.options{
+    display: inline-block;
+}
+
+.ceDiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.dowload{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+}
+
+a{
+    color: white;
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    </head>
+    <body>
+        <header>
+            <div class="encabezado">
+                <div class="logo">
+                    <img src="img/logo1.png" alt="">
+                </div>
+                <div class="menuC">
+                    <nav>
+                        <li class="menuv"><a href="">ADMIN</a></li>
+                        <li class="menuv"><a href="">RECORDS</a></li>
+                        <li class="menuv"><a href="">INTERAC</a></li>
+                        <li class="menuv"><a href="">CALENDAR</a></li>
+                        <li class="menuv"><a href="">PROVI?</a></li>
+                        <li class="menuv"><a href="">SETTINGS</a></li>
+                    </nav>
+                </div>
+                <div class="logIn">
+                    <img src="img/oneZ.png" alt="">
+                     
+                    <select name="user" id="user">
+                        <option value="1" selected>Usuario</option>
+                        <option value="2" >Usuario 1</option>
+                    </select>
+                     
+                </div>
+            </div>
+        </header>
+        <aside class="contenido">
+            <nav class="menuLateral">
+                <li class="opLate">
+                    <div>
+                        <img src="img/icon_1.png" alt="">
+                        <a href="">CLIENTES</a>
+                    </div>
+                    
+                </li>
+                <li class="opLate">
+                    <div>
+                        <img src="img/icon_1.png" alt="">
+                        <a href="">MONITORING</a>
+                    </div>
+                    
+                </li>
+                <li class="opLate">
+                    <div>
+                        <img src="img/icon_1.png" alt="">
+                        <a href="">REPORTING</a>
+                    </div>
+                </li>
+                <li class="opLate">
+                    <div>
+                        <img src="img/icon_1.png" alt="">
+                        <a href="">LOCATIONS</a>
+                    </div>
+                    
+                </li>
+                <li class="opLate">
+                    <div>
+                        <img src="img/icon_1.png" alt="">
+                        <a href="">LOGS</a>
+                    </div>
+                    
+                </li>
+            </nav>
+            <main class="mainD">
+                
+                <div class="subMenu">
+                    <div class="sMenu1">
+                        <nav>
+                            <li><a href="">Alerts</a></li>
+                            <li><a href="">Task</a></li>
+                            <li><a href="">Risk</a></li>
+                            <li><a href="">Autorizations</a></li>
+                            <li><a href="">Vitals</a></li>   
+                        </nav>
+                    </div>
+                    <br>
+                    <div class="sMenu2">
+                        <nav>
+                            <li><a href="">resolve</a></li>
+                            <li><a href="">unresolve</a></li>
+                        </nav>
+                    </div>
+                </div>
+                
+                <div class="mainContent">
+                    <div class="formulario">
+                        <form action="ejemplo.php" method="POST">
+                            <div class="cont1">
+                                <div class="cajasFormdiv">
+                                    <label for="fname">First name</label>
+                                    <br>
+                                    <input type="text" name="fname" id="fname" required placeholder="Ingresa tu nombre">
+                                </div>
+                                <div class="cajasFormdiv">
+                                    <label for="lname">Last name</label>
+                                    <br>
+                                    <input type="text" name="lname" id="lname" required placeholder="Ingresa tu apellido">
+                                </div>
+                                <div class="cajasFormdiv">
+                                    <label for="sdate">Start date</label>
+                                    <br>
+                                    <input type="date" name="sdate" id="sdate">
+                                </div>
+                                <div class="cajasFormdiv">
+                                    <label for="edate">End date</label>
+                                    <br>
+                                    <input type="date" name="edate" id="edate">
+                                </div>
+                            </div>
+                            <div class="cont2">
+                                <div class="cajasFormdiv1">
+                                    <label for="drange">Date Range</label>
+                                     
+                                    <div>
+                                        <a href="">1 day</a>
+                                        <a href="">3 days</a>
+                                        <a href="">30 days</a>
+                                        <a href="">90 days</a>
+                                        <a href="">ALL</a>
+                                    </div>
+                                    
+                                </div>
+                                <div class="cajasFormdiv">
+                                    <label for="select-l">Source</label>
+                                    <br>
+                                    <select name="select-l" style="width: 150px;">
+                                        <option value="value1">Value 1</option>
+                                        <option value="value2" selected>Value 2</option>
+                                        <option value="value3">Value 3</option>
+                                      </select>
+                                </div>
+                                <div class="cajasFormdiv">
+                                    <a class="serch" href="">Search</a>
+                                     
+                                    <a class="equis" href="">X</a>
+                                </div>
+                            </div>
+                            <div class="cont3">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Columna 1</th>
+                                            <th>Columna 2</th>
+                                            <th>Columna 3</th>
+                                            <th>Columna 4 </th>
+                                            <th>Columna 5</th>
+                                            <th>Columna 6</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td> Registro 1</td>
+                                            <td> Registro 2</td>
+                                            <td> Registro 3</td>
+                                            <td> Registro 4</td>
+                                            <td> Registro 5</td>
+                                            <td> Registro 6</td>
+                                        </tr>
+                                        <tr>
+                                            <td> Registro 1</td>
+                                            <td> Registro 2</td>
+                                            <td> Registro 3</td>
+                                            <td> Registro 4</td>
+                                            <td> Registro 5</td>
+                                            <td> Registro 6</td>
+                                        </tr>
+                                        <tr>
+                                            <td> Registro 1</td>
+                                            <td> Registro 2</td>
+                                            <td> Registro 3</td>
+                                            <td> Registro 4</td>
+                                            <td> Registro 5</td>
+                                            <td> Registro 6</td>
+                                        </tr>
+                                        <tr>
+                                            <td> Registro 1</td>
+                                            <td> Registro 2</td>
+                                            <td> Registro 3</td>
+                                            <td> Registro 4</td>
+                                            <td> Registro 5</td>
+                                            <td> Registro 6</td>
+                                        </tr>
+                                        <tr>
+                                            <td> Registro 1</td>
+                                            <td> Registro 2</td>
+                                            <td> Registro 3</td>
+                                            <td> Registro 4</td>
+                                            <td> Registro 5</td>
+                                            <td> Registro 6</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </main>
+        </aside>
+
+
+    </body>
+</html>
